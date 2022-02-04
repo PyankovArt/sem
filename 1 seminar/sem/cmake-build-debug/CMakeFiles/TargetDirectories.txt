@@ -1,0 +1,3 @@
+C:/Users/pyank/Desktop/PROGA/1 seminar/sem/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pyank/Desktop/PROGA/1 seminar/sem/cmake-build-debug/CMakeFiles/sem.dir
+C:/Users/pyank/Desktop/PROGA/1 seminar/sem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
