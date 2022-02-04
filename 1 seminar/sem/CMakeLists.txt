@@ -3,4 +3,4 @@ project(sem)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(sem main.cpp)
+add_executable(sem main.cpp text.cpp)
