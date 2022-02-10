@@ -1,9 +1,11 @@
 #include <iostream>
+#include <chrono>
+#include <cmath>
 
-int main() {
+int main(){
     std::cout << "Hello, DGAP!" << std::endl;
     return 0;
-}
+};
 /*
  * Репозиторий - папка, отслеживаемая Git
  * Коммит - фиксация состояния - обязательное имя и автор

@@ -72,6 +72,12 @@ build CMakeFiles/sem.dir/text.cpp.obj: CXX_COMPILER__sem_Debug C$:/Users/pyank/D
   OBJECT_DIR = CMakeFiles\sem.dir
   OBJECT_FILE_DIR = CMakeFiles\sem.dir
 
+build CMakeFiles/sem.dir/text2.cpp.obj: CXX_COMPILER__sem_Debug C$:/Users/pyank/Desktop/PROGA/1$ seminar/sem/text2.cpp || cmake_object_order_depends_target_sem
+  DEP_FILE = CMakeFiles\sem.dir\text2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\sem.dir
+  OBJECT_FILE_DIR = CMakeFiles\sem.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target sem
@@ -80,7 +86,7 @@ build CMakeFiles/sem.dir/text.cpp.obj: CXX_COMPILER__sem_Debug C$:/Users/pyank/D
 #############################################
 # Link the executable sem.exe
 
-build sem.exe: CXX_EXECUTABLE_LINKER__sem_Debug CMakeFiles/sem.dir/main.cpp.obj CMakeFiles/sem.dir/text.cpp.obj
+build sem.exe: CXX_EXECUTABLE_LINKER__sem_Debug CMakeFiles/sem.dir/main.cpp.obj CMakeFiles/sem.dir/text.cpp.obj CMakeFiles/sem.dir/text2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\sem.dir

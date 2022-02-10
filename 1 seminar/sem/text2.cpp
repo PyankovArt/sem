@@ -1,18 +1,34 @@
+//
+// Created by pyank on 04.02.2022.
+//
+
 #include <iostream>
 #include <chrono>
 #include <cmath>
 
 using namespace std::chrono;
 
+class Timer{
+public:
+    Timer(): start(steady_clock::now){}
+    ~Timer(){
+        std::cout<<duration_cast<std::chrono::microseconds>(steady_clock::now- start).count();
+    }
+
+
+private:
+    steady_clock::time_point start;
+};
+
 int main() {
-    auto start = steady_clock::now();
     double result;
-    for (auto i=0; i<10000000; i++){
-        result = std::sin(i)+ std:: cos(i);
-    };
-    auto duration = steady_clock::now()-start;
-    auto duration_in_milliseconds = duration_cast<std::chrono::milliseconds>(duration).count();
-    std::cout<<"Duration in milliseconds="<< duration_in_milliseconds << std::endl;
+    {
+        Timer t;
+        for (auto i=0; i<10000000; i++){
+            result = std::sin(i)+ std:: cos(i);
+        };
+    }
+
     std::cout<< "Result is "<< result;
 
     return 0;

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
-project(sem)
+project(homework_1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(sem main.cpp text.cpp text2.cpp)
+add_executable(homework_1 main.cpp)
