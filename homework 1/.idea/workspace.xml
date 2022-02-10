@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="homework_1" targetName="homework_1" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b134e2f5-63cf-4fe2-b70b-ad393815d88e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../1 seminar/sem/text2.cpp" afterDir="false" />
+    <list default="true" id="b134e2f5-63cf-4fe2-b70b-ad393815d88e" name="Changes" comment="сел за дз">
       <change beforePath="$PROJECT_DIR$/../1 seminar/sem/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../1 seminar/sem/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/CMakeFiles/sem.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/CMakeFiles/sem.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 seminar/sem/cmake-build-debug/sem.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 seminar/sem/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1 seminar/sem/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1 seminar/sem/text.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1 seminar/sem/text.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +28,12 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -69,11 +75,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644518122708</updated>
-      <workItem from="1644518124693" duration="1000" />
+      <workItem from="1644518124693" duration="3103000" />
     </task>
+    <task id="LOCAL-00001" summary="сел за дз">
+      <created>1644518168208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644518168208</updated>
+    </task>
+    <task id="LOCAL-00002" summary="сел за дз">
+      <created>1644518188129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644518188129</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="сел за дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="сел за дз" />
   </component>
 </project>
