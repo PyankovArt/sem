@@ -11,25 +11,8 @@
 #define RANGE(container) container.begin(), container.end()
 
 int main() {
-   std::map<std::string, unsigned> grades;
+    std::multimap<int, std::string> groups;
 
-   grades["Denis"]=3u;
-
-
-   std::pair<std::string,unsigned > ilya_grade("Ilya",9);
-   grades.insert(ilya_grade);
-
-   std::cout<<grades["Nikita"]<<std::endl;
-
-
-   auto victoria_grade=std::make_pair("Victoria", 8);
-   grades.insert(victoria_grade);
-
-   grades.insert({"Roman",7});
-
-   for(const auto& [student, grade]: grades){
-       std::cout << student <<":"<< grade<< std::endl;
-   }
 
 }
 
