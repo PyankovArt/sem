@@ -1,6 +1,6 @@
 #include <iostream>
 #include<vector>
-
+#include <array>
 
 int main() {
     std::vector<int> numbers;
@@ -8,7 +8,16 @@ int main() {
         numbers.push_back(i);
         std::cout<<"Size is "<<numbers.size()<<" Capacity is "<< numbers.capacity()<<std::endl;
     }
+
+    std::array<int,5> static_array ={};      //Инициализация по умолчанию
+    std::array<int,5> another_static_array{};//Инициализация по умолчанию
+
+    static_array[3]=42;
+    for(auto number:static_array){
+        std::cout<< number<< ' ';
+    }
     return 0;
+
 }
 
 /*
@@ -21,4 +30,6 @@ int main() {
  * Объект -- сущность, обладающая поведением и состоянием
  * Поля вектора(состояние): data -- данные; size -- размер занятого; capacity -- ёмкость
  * Поведение: push_back() -- добавление в конец, resize() -- изменить size
+ *
+ * std::deque == vector + push_front();
  */
