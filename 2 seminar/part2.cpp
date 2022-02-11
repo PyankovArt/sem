@@ -7,15 +7,17 @@
 #include <algorithm>
 #include <iterator>
 
+#define RANGE(container) container.begin(), container.end()
+
 
 bool compare_abs(int lhs,int rhs){
     return std::abs(lhs)<std::abs(rhs);
 }
 int main() {
     std::vector<int> nums{42,-5,-80,8080};
-    std::sort(nums.begin(),nums.end(), compare_abs);
+    std::sort(RANGE(nums), compare_abs);
 
-    std::copy(nums.begin(), nums.end(),std::ostream_iterator<int>(std::cout, " "));
+    std::copy(RANGE(nums),std::ostream_iterator<int>(std::cout, " "));
 
 }
 
