@@ -6,17 +6,22 @@
 #include <vector>
 #include <algorithm>
 #include <iterator>
+#include <string>
 
 #define RANGE(container) container.begin(), container.end()
 
 int main() {
-    std::vector<int> nums{42,-5,-80,8080};
-    std::sort(RANGE(nums), [](auto lhs, auto rhs){
-        return std::abs(lhs)<std::abs(rhs);
-    });
+   std::map<std::string, unsigned> grades;
 
-    std::copy(RANGE(nums),std::ostream_iterator<int>(std::cout, " "));
+   grades["Denis"]=3u;
 
+
+   std::pair<std::string,unsigned > ilya_grade("Ilya",9);
+   grades.insert(ilya_grade);
+
+   for(const auto& student_grade: grades){
+       std::cout<< student_grade.first<<":"<<student_grade.second<<std::endl;
+   }
 }
 
 /*
