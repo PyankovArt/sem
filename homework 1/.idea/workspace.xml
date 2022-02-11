@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b134e2f5-63cf-4fe2-b70b-ad393815d88e" name="Changes" comment="что-то сделал но ничего не работает">
+    <list default="true" id="b134e2f5-63cf-4fe2-b70b-ad393815d88e" name="Changes" comment="написал ответы на кв">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +52,6 @@
     <property name="cmake.loaded.for.project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="homework_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework_1" TARGET_NAME="homework_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework_1" RUN_TARGET_NAME="homework_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -69,7 +66,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644518122708</updated>
-      <workItem from="1644518124693" duration="3407000" />
+      <workItem from="1644518124693" duration="3882000" />
+      <workItem from="1644559206686" duration="121000" />
+      <workItem from="1644559356538" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="сел за дз">
       <created>1644518168208</created>
@@ -92,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644521452774</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="написал ответы на кв">
+      <created>1644521820117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644521820117</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="сел за дз" />
     <MESSAGE value="что-то сделал но ничего не работает" />
-    <option name="LAST_COMMIT_MESSAGE" value="что-то сделал но ничего не работает" />
+    <MESSAGE value="написал ответы на кв" />
+    <option name="LAST_COMMIT_MESSAGE" value="написал ответы на кв" />
   </component>
 </project>

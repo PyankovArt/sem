@@ -15,7 +15,7 @@ class Timer {
 public:
     Timer() {}
     ~Timer() {
-        std::cout <<duration_cast<std::chrono::microseconds>(steady_clock::now() - start-pause_time).count()<< std::endl;
+        std::cout <<duration_cast<std::chrono::microseconds>(steady_clock::now() - start - pause_time).count()<< std::endl;
     };
 
     void pause(Timer Clock) {
