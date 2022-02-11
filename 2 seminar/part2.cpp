@@ -19,9 +19,19 @@ int main() {
    std::pair<std::string,unsigned > ilya_grade("Ilya",9);
    grades.insert(ilya_grade);
 
+   std::cout<<grades["Nikita"]<<std::endl;
+
+
+   auto victoria_grade=std::make_pair("Victoria", 8);
+   grades.insert(victoria_grade);
+
+   grades.insert({"Roman",7});
+
    for(const auto& student_grade: grades){
        std::cout<< student_grade.first<<":"<<student_grade.second<<std::endl;
    }
+
+
 }
 
 /*
