@@ -1,9 +1,24 @@
 #include <iostream>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <unordered_set>
+#include <vector>
+#include <algorithm>
+#include <iterator>
 
-int main() {
-    std::cout << "Hello World!";
-    return 0;
+
+bool compare_abs(int lhs,int rhs){
+    return std::abs(lhs)<std::abs(rhs);
 }
+int main() {
+    std::vector<int> nums{42,-5,-80,8080};
+    std::sort(nums.begin(),nums.end(), compare_abs);
+
+    std::copy(nums.begin(), nums.end(),std::ostream_iterator<int>(std::cout, " "));
+
+}
+
 /*
  * Ассоциативные контейнеры
  * map, set
