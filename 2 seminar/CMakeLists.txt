@@ -3,4 +3,4 @@ project(2_seminar)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(2_seminar main.cpp)
+add_executable(2_seminar part2.cpp)
