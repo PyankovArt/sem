@@ -1,7 +1,16 @@
 #include <iostream>
 #include<vector>
 #include <array>
+#include<deque>
 
+class Fraction{
+public:
+    Fraction(int numerator, int denominator):
+        numerator(numerator), denominator(denominator){}
+private:
+    int numerator;
+    unsigned denominator;
+};
 int main() {
     std::vector<int> numbers;
     for (auto i=0; i<30;i++){
@@ -16,6 +25,12 @@ int main() {
     for(auto number:static_array){
         std::cout<< number<< ' ';
     }
+
+    std::deque<Fraction> deq;
+    deq.emplace_front(1,25u);
+    std::cout<<deq.size()<<std::endl;
+
+
     return 0;
 
 }
