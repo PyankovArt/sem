@@ -27,10 +27,9 @@ int main() {
 
    grades.insert({"Roman",7});
 
-   for(const auto& student_grade: grades){
-       std::cout<< student_grade.first<<":"<<student_grade.second<<std::endl;
+   for(const auto& [student, grade]: grades){
+       std::cout << student <<":"<< grade<< std::endl;
    }
-
 
 }
 
